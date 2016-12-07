@@ -1,7 +1,8 @@
 from math import sqrt, pow
 
 """
-Written in Python 2.7!
+Written by Kevin Gay in Python 2.7!
+Link to Git: https://github.com/KevinGay/KGMatrix
 This module creates a matrix data structure and provides
 methods to perform common matrix operations. The name of
 the algorithm is the method name if a specific algorithm
