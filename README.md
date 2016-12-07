@@ -20,8 +20,8 @@ the algorithm is the method name if a specific algorithm is used.
 
 		Two functions have been included below for testing: test1 checks operator overloading and the methods
 		for solving a matrix, while test2 checks the more advanced algorithms for finding eigenvectors and
-		eigenvalues. Check the implementation for more specific detail. The correct outputs have been posted
-		on the GitHub page.
+		eigenvalues. Check the implementation for more specific detail. A test file and the correct outputs 
+		have been posted on the GitHub page.
         
         
 #Help on Matrix in module \__main__ object:
