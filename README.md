@@ -27,10 +27,12 @@ the algorithm is the method name if a specific algorithm is used.
 #Help on Matrix in module \__main__ object:
 
 ##   Methods defined here:
+
+   \__init__(self, matrixList=[])
    
-   QR(self)
-   
-       Use the QR Method to find all of the eigenvalues and eigenvectors of a matrix.
+       Creates a matrix using a supplied list.
+       If no list is supplied, assume the matrix is empty.
+       matrixList: list of floats or ints.
    
    \__add__(self, other)
    
@@ -50,12 +52,6 @@ the algorithm is the method name if a specific algorithm is used.
                         second matrix columns.
                                 
        Resultant matrix of mult(m x n, n x p) will always be m x p.
-   
-   \__init__(self, matrixList=[])
-   
-       Creates a matrix using a supplied list.
-       If no list is supplied, assume the matrix is empty.
-       matrixList: list of floats or ints.
    
    \__mul__(self, other)
    
@@ -135,6 +131,10 @@ the algorithm is the method name if a specific algorithm is used.
    meanVector(self)
    
        Return an nx1 matrix of the mean column vectors of a matrix.
+       
+   QR(self)
+   
+       Use the QR Method to find all of the eigenvalues and eigenvectors of a matrix.
    
    powerMethod(self, y)
    
