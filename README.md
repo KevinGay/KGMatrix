@@ -16,11 +16,9 @@ the algorithm is the method name if a specific algorithm is used.
              between a matrix and a scalar as long as the scalar follows the matrix.
         
         
-###Help on Matrix in module \__main__ object:
+#Help on Matrix in module \__main__ object:
 
-###class Matrix(\__builtin__.object)
-
-###   Methods defined here:
+##   Methods defined here:
    
    QR(self)
    
