@@ -1,20 +1,19 @@
 # KGMatrix
 
-Written in Python 2.7!
+Written by Kevin Gay in Python 2.7!
 
 This module creates a matrix data structure and provides methods to perform common matrix operations. The name of
-
 the algorithm is the method name if a specific algorithm is used.
 
-Note: operator overloading has been implemented so the following is possible:
+	Note: operator overloading has been implemented so the following is possible:
 
-    -Addition/subtraction between two matrices
+    	    -Addition/subtraction between two matrices
 		
-    -Multiplication/division between two matrices
+	    -Multiplication/division between two matrices
 		
-            OR
+        	    OR
 						
-        between a matrix and a scalar as long as the scalar follows the matrix.
+             between a matrix and a scalar as long as the scalar follows the matrix.
         
         
 **Help on Matrix in module \__main__ object:**
