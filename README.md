@@ -2,6 +2,7 @@
 
 ###Written by Kevin Gay in Python 2.7!
 
+
 This module creates a matrix data structure and provides methods to perform common matrix operations. The name of
 the algorithm is the method name if a specific algorithm is used.
 
@@ -14,6 +15,13 @@ the algorithm is the method name if a specific algorithm is used.
         	    OR
 						
              between a matrix and a scalar as long as the scalar follows the matrix.
+	     
+###Testing	
+
+		Two functions have been included below for testing: test1 checks operator overloading and the methods
+		for solving a matrix, while test2 checks the more advanced algorithms for finding eigenvectors and
+		eigenvalues. Check the implementation for more specific detail. The correct outputs have been posted
+		on the GitHub page.
         
         
 #Help on Matrix in module \__main__ object:
@@ -36,12 +44,9 @@ the algorithm is the method name if a specific algorithm is used.
        Conditions:
  
                -if input is a scalar, it must be an int or a float.
- 
                         **SCALAR MUST COME AFTER MATRIX IN EXPRESSION**
  
-       
                -if input is a matrix, the first matrix rows must match the
- 
                         second matrix columns.
                                 
        Resultant matrix of mult(m x n, n x p) will always be m x p.
@@ -56,7 +61,9 @@ the algorithm is the method name if a specific algorithm is used.
    
        If other is a matrix, perform matrix multiplication
        if other is a scalar, multiply each item in the matrix by a scalar.
+       
        Conditions:
+       
            -if input is a scalar, it must be an int or a float
                **SCALAR MUST COME AFTER MATRIX IN EXPRESSION**
        
