@@ -10,7 +10,7 @@ the algorithm is the method name if a specific algorithm is used.
 
     	    -Addition/subtraction between two matrices
 		
-	    -Multiplication/division between two matrices
+	    	-Multiplication/division between two matrices
 		
         	    OR
 						
