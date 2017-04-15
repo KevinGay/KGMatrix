@@ -126,7 +126,7 @@ the algorithm is the method name if a specific algorithm is used.
    
    leverrier(self)
    
-       Use Leverrier's method to fid the characteristic polynomial of a matrix.
+       Use Leverrier's method to find the characteristic polynomial of a matrix.
    
    meanVector(self)
    
